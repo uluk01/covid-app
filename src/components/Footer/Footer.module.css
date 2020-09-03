@@ -2,7 +2,7 @@
 .sectionFooter {
     background: transparent;
     text-align: center;
-    padding: 40px 0;
+    padding: 40px 0 20px
 }
 
 .footerTop {
@@ -34,10 +34,6 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.logoTitle {
-    width: 30%;
 }
 
 .logoImg {
