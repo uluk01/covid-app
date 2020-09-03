@@ -1,0 +1,21 @@
+.SectionFooter {
+    background: transparent;
+    text-align: center;
+}
+
+.FooterTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FooterNav {
+    display: flex;
+    align-items: center;
+}
+
+.FooterSocial {
+    display: flex;
+    align-items: center;
+}
+
