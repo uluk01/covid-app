@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Footer.module.css'
 
 
-function Footer() {
+export const Footer = () => {
     return (
         <section id="Footer" className={styles.sectionFooter}>
             <div className="container">
@@ -86,5 +86,3 @@ function Footer() {
         </section>
     )
 }
-
-export default Footer;
