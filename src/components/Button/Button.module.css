@@ -1,0 +1,13 @@
+.btn {
+  padding: 10px 26px;
+  border-color: var(--primary);
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 42px;
+  font-weight: 600;
+}
+
+.outlineBtn {
+  color: var(--primary);
+  background-color: transparent;
+}

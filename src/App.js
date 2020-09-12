@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Footer, Header } from "./components/components";
 
 function App() {
   return (
-    <div className="App">     
-    </div>
+    <main>
+      <Header />
+      <div style={{height: '100vh'}}></div>
+    <Footer/>
+    </main> 
   );
 }
 
