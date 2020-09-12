@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Footer.module.css'
+import {Link, Router} from 'react-router-dom'
 
 
 function Footer() {
@@ -67,10 +68,10 @@ function Footer() {
                         <h4 className={styles.logoTitle}>Covid - 19</h4>
                     </div>
                     <ul className={styles.footerNav}>
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Symptoms</a></li>
-                        <li><a href="#">Prevention</a></li>
-                        <li><a href="#">Treatment</a></li>
+                        <li><Link to="/overview">Overview</Link></li>
+                        <li><Link to="/symptoms">Symptoms</Link></li>
+                        <li><Link to="/prevention">Prevention</Link></li>
+                        <li><Link to="/treatment">Treatment</Link></li>
                     </ul>
                     <ul className={styles.footerSocial}>
                         <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" style={{color: '#365899'}}></i></a></li>
