@@ -1,0 +1,69 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.header::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  background-color: var(--primary);
+  width: 0;
+  transition: width 1s ease;
+}
+
+.header.sticky:after {
+  width: 100%;
+}
+
+.menu {
+  transition: width 1s ease;
+}
+
+.sticky .menu {
+  width: 85%;
+}
+
+.menu,
+.header,
+.logo,
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.logo {
+  transition: opacity 0.2s ease;
+}
+
+.menu {
+  justify-content: space-between;
+  width: 60%;
+}
+
+.menu_item a {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.menu_item a.active {
+  color: var(--primary);
+}
+
+.logoTitle {
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: var(--secondary) !important;
+}
+
+.sticky .logo {
+  opacity: 0;
+}

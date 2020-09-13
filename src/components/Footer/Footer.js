@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 import {Link, Router} from 'react-router-dom'
 
 
-function Footer() {
+export const Footer = () => {
     return (
         <section id="Footer" className={styles.sectionFooter}>
             <div className="container">
@@ -87,5 +87,3 @@ function Footer() {
         </section>
     )
 }
-
-export default Footer;
